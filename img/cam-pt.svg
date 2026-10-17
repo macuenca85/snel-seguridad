@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#F1F5F9"/>
+  <g transform="translate(110 120)">
+    <!-- Base circular -->
+    <ellipse cx="90" cy="160" rx="80" ry="14" fill="#94A3B8"/>
+    <ellipse cx="90" cy="156" rx="80" ry="12" fill="#CBD5E1"/>
+    <!-- Cuello giratorio -->
+    <rect x="75" y="100" width="30" height="60" fill="#E2E8F0"/>
+    <ellipse cx="90" cy="100" rx="15" ry="6" fill="#94A3B8"/>
+    <!-- Cabeza esférica con inclinación -->
+    <g transform="translate(90 70)">
+      <circle r="60" fill="#F8FAFC"/>
+      <circle r="60" fill="url(#ptGrad)"/>
+      <circle r="56" fill="#FFFFFF"/>
+      <!-- Lente principal grande -->
+      <circle r="35" fill="#0F172A"/>
+      <circle r="28" fill="#1E293B"/>
+      <circle r="20" fill="#0B2545"/>
+      <circle cx="-6" cy="-6" r="5" fill="#3B82F6" opacity="0.7"/>
+      <!-- LED IR alrededor -->
+      <g fill="#7F1D1D">
+        <circle cx="-42" cy="0" r="3"/>
+        <circle cx="42" cy="0" r="3"/>
+        <circle cx="0" cy="-42" r="3"/>
+        <circle cx="0" cy="42" r="3"/>
+      </g>
+      <!-- Indicador estado -->
+      <circle cx="35" cy="-35" r="4" fill="#00D4FF"/>
+    </g>
+    <!-- Flechas indicando rotación -->
+    <g stroke="#00D4FF" stroke-width="2" fill="none" opacity="0.5">
+      <path d="M 15 70 Q 5 70 10 60" stroke-linecap="round"/>
+      <path d="M 8 62 L 10 60 L 13 62" stroke-linecap="round"/>
+      <path d="M 165 70 Q 175 70 170 60" stroke-linecap="round"/>
+      <path d="M 167 62 L 170 60 L 172 62" stroke-linecap="round"/>
+    </g>
+  </g>
+  <text x="200" y="370" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#64748B">Cámara Giratoria 360°</text>
+</svg>

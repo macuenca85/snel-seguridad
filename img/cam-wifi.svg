@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#F1F5F9"/>
+  <g transform="translate(140 120)">
+    <!-- Base -->
+    <ellipse cx="60" cy="160" rx="50" ry="8" fill="#94A3B8"/>
+    <!-- Cuello flexible -->
+    <rect x="55" y="120" width="10" height="40" fill="#64748B"/>
+    <!-- Cabeza esférica -->
+    <circle cx="60" cy="100" r="50" fill="#F8FAFC"/>
+    <circle cx="60" cy="100" r="48" fill="#FFFFFF"/>
+    <!-- Lente principal -->
+    <circle cx="60" cy="100" r="28" fill="#0F172A"/>
+    <circle cx="60" cy="100" r="22" fill="#1E293B"/>
+    <circle cx="60" cy="100" r="14" fill="#0B2545"/>
+    <circle cx="55" cy="95" r="4" fill="#3B82F6" opacity="0.7"/>
+    <!-- LED -->
+    <circle cx="100" cy="80" r="3" fill="#10B981"/>
+    <!-- Ondas WiFi -->
+    <g transform="translate(60 100)" opacity="0.4">
+      <path d="M -65 -25 Q -70 -35 -65 -45" stroke="#3B82F6" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path d="M -75 -20 Q -85 -35 -75 -50" stroke="#3B82F6" stroke-width="3" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+  <text x="200" y="320" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#64748B">Cámara WiFi Interior</text>
+</svg>

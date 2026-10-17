@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#F1F5F9"/>
+  <g transform="translate(100 100)">
+    <!-- Soporte techo -->
+    <rect x="80" y="0" width="40" height="20" fill="#475569"/>
+    <rect x="90" y="20" width="20" height="20" fill="#334155"/>
+    <!-- Cuerpo PTZ esférico -->
+    <circle cx="100" cy="80" r="55" fill="#0F172A"/>
+    <circle cx="100" cy="80" r="50" fill="#1E293B"/>
+    <!-- Sección móvil -->
+    <ellipse cx="100" cy="90" rx="45" ry="35" fill="#020617"/>
+    <!-- Lente -->
+    <circle cx="100" cy="90" r="22" fill="#0B2545"/>
+    <circle cx="100" cy="90" r="17" fill="#000000"/>
+    <circle cx="95" cy="85" r="4" fill="#FBBF24" opacity="0.8"/>
+    <!-- Anillo LED IR -->
+    <circle cx="100" cy="90" r="32" fill="none" stroke="#7C2D12" stroke-width="2" stroke-dasharray="3 3" opacity="0.5"/>
+  </g>
+  <text x="200" y="320" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#64748B">Cámara PTZ Profesional</text>
+</svg>

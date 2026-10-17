@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#F1F5F9"/>
+  <g transform="translate(110 100)">
+    <!-- Cuerpo energizador -->
+    <rect x="0" y="0" width="180" height="220" fill="#0B2545" rx="8"/>
+    <rect x="0" y="0" width="180" height="40" fill="#1B4B7C" rx="8"/>
+    <text x="90" y="26" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="800" fill="#FBBF24">SNEL ENERGIZER</text>
+    <!-- Display -->
+    <rect x="20" y="60" width="140" height="60" fill="#000000" rx="4"/>
+    <text x="90" y="85" text-anchor="middle" font-family="monospace" font-size="14" font-weight="700" fill="#FBBF24">80 J</text>
+    <text x="90" y="105" text-anchor="middle" font-family="monospace" font-size="10" fill="#10B981">ACTIVO</text>
+    <!-- LEDs -->
+    <circle cx="40" cy="145" r="6" fill="#10B981"/>
+    <circle cx="60" cy="145" r="6" fill="#FBBF24"/>
+    <circle cx="80" cy="145" r="6" fill="#DC2626"/>
+    <!-- Terminales -->
+    <rect x="20" y="170" width="20" height="20" fill="#FBBF24" rx="2"/>
+    <rect x="60" y="170" width="20" height="20" fill="#FBBF24" rx="2"/>
+    <rect x="100" y="170" width="20" height="20" fill="#FBBF24" rx="2"/>
+    <rect x="140" y="170" width="20" height="20" fill="#FBBF24" rx="2"/>
+    <text x="30" y="200" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="#94A3B8">+</text>
+    <text x="70" y="200" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="#94A3B8">-</text>
+    <text x="110" y="200" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="#94A3B8">G</text>
+    <text x="150" y="200" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="#94A3B8">AC</text>
+  </g>
+  <!-- Rayo -->
+  <path d="M 50 200 L 45 230 L 55 230 L 48 270" stroke="#FBBF24" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="200" y="360" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#64748B">Energizador 80J</text>
+</svg>

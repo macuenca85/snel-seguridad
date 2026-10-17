@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#F1F5F9"/>
+  <g transform="translate(120 100)">
+    <!-- Lector -->
+    <rect x="0" y="0" width="160" height="180" fill="#1E293B" rx="10"/>
+    <rect x="5" y="5" width="150" height="170" fill="#334155" rx="8"/>
+    <!-- LED -->
+    <circle cx="80" cy="35" r="8" fill="#10B981"/>
+    <!-- Ondas RFID -->
+    <g stroke="#FBBF24" stroke-width="3" fill="none" opacity="0.6">
+      <path d="M 80 80 Q 110 80 110 110"/>
+      <path d="M 80 80 Q 130 80 130 130"/>
+      <path d="M 80 80 Q 150 80 150 150"/>
+      <path d="M 80 80 Q 50 80 50 110"/>
+      <path d="M 80 80 Q 30 80 30 130"/>
+      <path d="M 80 80 Q 10 80 10 150"/>
+    </g>
+    <!-- Sensor central -->
+    <circle cx="80" cy="80" r="10" fill="#FBBF24"/>
+    <circle cx="80" cy="80" r="6" fill="#0B2545"/>
+    <!-- Marca -->
+    <text x="80" y="160" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#FBBF24">SNEL RFID</text>
+  </g>
+  <!-- Tarjeta -->
+  <g transform="translate(50 250) rotate(-15)">
+    <rect x="0" y="0" width="100" height="60" fill="#3B82F6" rx="6"/>
+    <rect x="0" y="0" width="100" height="60" fill="url(#cardGrad)" rx="6"/>
+    <circle cx="80" cy="20" r="8" fill="#FBBF24" opacity="0.6"/>
+    <circle cx="80" cy="20" r="5" fill="#FBBF24"/>
+    <rect x="10" y="40" width="60" height="4" fill="#FFFFFF" opacity="0.6"/>
+    <rect x="10" y="48" width="40" height="3" fill="#FFFFFF" opacity="0.4"/>
+  </g>
+  <text x="200" y="380" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#64748B">Control RFID + Tarjetas</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#F1F5F9"/>
+  <g transform="translate(120 130)">
+    <!-- Detector -->
+    <ellipse cx="80" cy="20" rx="80" ry="20" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <ellipse cx="80" cy="20" rx="80" ry="20" fill="url(#smokeGrad)"/>
+    <ellipse cx="80" cy="15" rx="80" ry="15" fill="#FFFFFF"/>
+    <ellipse cx="80" cy="10" rx="70" ry="10" fill="#F1F5F9"/>
+    <!-- Rejillas -->
+    <g fill="#CBD5E1">
+      <rect x="20" y="25" width="10" height="3" rx="1"/>
+      <rect x="40" y="25" width="10" height="3" rx="1"/>
+      <rect x="60" y="25" width="10" height="3" rx="1"/>
+      <rect x="90" y="25" width="10" height="3" rx="1"/>
+      <rect x="110" y="25" width="10" height="3" rx="1"/>
+      <rect x="130" y="25" width="10" height="3" rx="1"/>
+    </g>
+    <!-- LED test -->
+    <circle cx="80" cy="15" r="5" fill="#10B981"/>
+    <circle cx="80" cy="15" r="3" fill="#34D399"/>
+  </g>
+  <!-- Humo simulado -->
+  <g opacity="0.3" fill="#94A3B8">
+    <circle cx="200" cy="280" r="20"/>
+    <circle cx="180" cy="310" r="25"/>
+    <circle cx="220" cy="320" r="22"/>
+    <circle cx="200" cy="340" r="30"/>
+  </g>
+  <text x="200" y="380" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#64748B">Detector de Humo</text>
+</svg>

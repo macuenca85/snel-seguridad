@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#F1F5F9"/>
+  <!-- Aisladores apilados -->
+  <g transform="translate(140 100)">
+    <ellipse cx="60" cy="20" rx="50" ry="10" fill="#FBBF24"/>
+    <rect x="10" y="20" width="100" height="40" fill="#FBBF24"/>
+    <ellipse cx="60" cy="60" rx="50" ry="10" fill="#F59E0B"/>
+    <ellipse cx="60" cy="80" rx="55" ry="10" fill="#FBBF24"/>
+    <rect x="5" y="80" width="110" height="50" fill="#FBBF24"/>
+    <ellipse cx="60" cy="130" rx="55" ry="10" fill="#F59E0B"/>
+    <ellipse cx="60" cy="150" rx="50" ry="10" fill="#FBBF24"/>
+    <rect x="10" y="150" width="100" height="40" fill="#FBBF24"/>
+    <ellipse cx="60" cy="190" rx="50" ry="10" fill="#F59E0B"/>
+    <!-- Tornillo -->
+    <rect x="55" y="0" width="10" height="200" fill="#94A3B8"/>
+    <rect x="50" y="-5" width="20" height="10" fill="#64748B"/>
+  </g>
+  <text x="200" y="350" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#64748B">Aisladores Plásticos (pack)</text>
+</svg>

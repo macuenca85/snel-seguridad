@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#F1F5F9"/>
+  <g transform="translate(50 140)">
+    <!-- Cuerpo controlador rack -->
+    <rect x="0" y="0" width="300" height="110" fill="#1E293B" rx="6"/>
+    <rect x="3" y="3" width="294" height="104" fill="#334155" rx="4"/>
+    <!-- Línea superior con LEDs -->
+    <rect x="10" y="12" width="280" height="20" fill="#0F172A" rx="3"/>
+    <g fill="#10B981">
+      <circle cx="20" cy="22" r="2.5"/>
+      <circle cx="33" cy="22" r="2.5"/>
+      <circle cx="46" cy="22" r="2.5"/>
+    </g>
+    <g fill="#FBBF24">
+      <circle cx="59" cy="22" r="2.5"/>
+      <circle cx="72" cy="22" r="2.5"/>
+    </g>
+    <g fill="#475569">
+      <circle cx="85" cy="22" r="2.5"/>
+      <circle cx="98" cy="22" r="2.5"/>
+    </g>
+    <text x="150" y="26" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#00D4FF">SNEL ACCESS CONTROLLER</text>
+    <circle cx="275" cy="22" r="3" fill="#00D4FF"/>
+
+    <!-- Display/info area -->
+    <rect x="10" y="40" width="100" height="55" fill="#0F172A" rx="3"/>
+    <text x="60" y="58" text-anchor="middle" font-family="monospace" font-size="9" fill="#00D4FF">IP: 192.168.1.10</text>
+    <text x="60" y="74" text-anchor="middle" font-family="monospace" font-size="9" fill="#10B981">● ONLINE</text>
+    <text x="60" y="88" text-anchor="middle" font-family="monospace" font-size="8" fill="#94A3B8">DOORS: 4/4</text>
+
+    <!-- Puertos LAN tipo switch -->
+    <g>
+      <rect x="120" y="50" width="22" height="14" fill="#0F172A" stroke="#475569" stroke-width="1" rx="1"/>
+      <rect x="146" y="50" width="22" height="14" fill="#0F172A" stroke="#475569" stroke-width="1" rx="1"/>
+      <rect x="172" y="50" width="22" height="14" fill="#0F172A" stroke="#475569" stroke-width="1" rx="1"/>
+      <rect x="198" y="50" width="22" height="14" fill="#0F172A" stroke="#475569" stroke-width="1" rx="1"/>
+      <rect x="120" y="70" width="22" height="14" fill="#0F172A" stroke="#475569" stroke-width="1" rx="1"/>
+      <rect x="146" y="70" width="22" height="14" fill="#0F172A" stroke="#475569" stroke-width="1" rx="1"/>
+      <rect x="172" y="70" width="22" height="14" fill="#0F172A" stroke="#475569" stroke-width="1" rx="1"/>
+      <rect x="198" y="70" width="22" height="14" fill="#0F172A" stroke="#475569" stroke-width="1" rx="1"/>
+      <!-- LEDs en puertos activos -->
+      <circle cx="125" cy="55" r="1.5" fill="#10B981"/>
+      <circle cx="151" cy="55" r="1.5" fill="#10B981"/>
+      <circle cx="177" cy="55" r="1.5" fill="#FBBF24"/>
+    </g>
+    <text x="155" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#94A3B8">PoE / RJ45</text>
+
+    <!-- Terminales tornillo (relés salida) -->
+    <g>
+      <rect x="232" y="50" width="55" height="14" fill="#FBBF24" rx="1"/>
+      <rect x="232" y="70" width="55" height="14" fill="#FBBF24" rx="1"/>
+      <g fill="#0F1419" font-family="monospace" font-size="6">
+        <text x="238" y="60">+ - GND</text>
+        <text x="238" y="80">+ - GND</text>
+      </g>
+    </g>
+    <text x="260" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#94A3B8">RELAY OUT</text>
+
+    <!-- Antenas -->
+    <line x1="50" y1="0" x2="50" y2="-30" stroke="#1E293B" stroke-width="3" stroke-linecap="round"/>
+    <line x1="80" y1="0" x2="80" y2="-25" stroke="#1E293B" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="200" y="320" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#64748B">Controlador IP de Acceso</text>
+</svg>

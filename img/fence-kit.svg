@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#F1F5F9"/>
+  <!-- Postes -->
+  <g stroke="#475569" stroke-width="3">
+    <line x1="60" y1="100" x2="60" y2="300"/>
+    <line x1="160" y1="100" x2="160" y2="300"/>
+    <line x1="260" y1="100" x2="260" y2="300"/>
+    <line x1="360" y1="100" x2="360" y2="300"/>
+  </g>
+  <!-- Aisladores -->
+  <g fill="#FBBF24">
+    <circle cx="60" cy="150" r="5"/><circle cx="160" cy="150" r="5"/><circle cx="260" cy="150" r="5"/><circle cx="360" cy="150" r="5"/>
+    <circle cx="60" cy="180" r="5"/><circle cx="160" cy="180" r="5"/><circle cx="260" cy="180" r="5"/><circle cx="360" cy="180" r="5"/>
+    <circle cx="60" cy="210" r="5"/><circle cx="160" cy="210" r="5"/><circle cx="260" cy="210" r="5"/><circle cx="360" cy="210" r="5"/>
+    <circle cx="60" cy="240" r="5"/><circle cx="160" cy="240" r="5"/><circle cx="260" cy="240" r="5"/><circle cx="360" cy="240" r="5"/>
+    <circle cx="60" cy="270" r="5"/><circle cx="160" cy="270" r="5"/><circle cx="260" cy="270" r="5"/><circle cx="360" cy="270" r="5"/>
+  </g>
+  <!-- Cables -->
+  <g stroke="#94A3B8" stroke-width="1.5">
+    <line x1="60" y1="150" x2="360" y2="150"/>
+    <line x1="60" y1="180" x2="360" y2="180"/>
+    <line x1="60" y1="210" x2="360" y2="210"/>
+    <line x1="60" y1="240" x2="360" y2="240"/>
+    <line x1="60" y1="270" x2="360" y2="270"/>
+  </g>
+  <!-- Señal de peligro -->
+  <g transform="translate(180 80)">
+    <polygon points="20,0 40,35 0,35" fill="#FBBF24" stroke="#000000" stroke-width="2"/>
+    <text x="20" y="28" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" font-weight="800" fill="#000000">!</text>
+  </g>
+  <text x="200" y="350" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#64748B">Kit Cerco Eléctrico</text>
+</svg>
