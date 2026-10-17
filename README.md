@@ -1,1 +1,1 @@
-# snel-seguridad
+# snelseguridad.com
